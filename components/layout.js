@@ -5,8 +5,7 @@ import { RiLinkedinLine, RiFacebookLine } from "react-icons/ri";
 
 export default function Layout({ children }){
     return(
-        <div className="flex flex-col min-h-screen"
-        >
+        <div className="flex flex-col min-h-screen">
           <motion.header
           initial={{ y: -100}}
           animate={{ y: 0}}
