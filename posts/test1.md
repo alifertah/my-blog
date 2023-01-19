@@ -1,6 +1,7 @@
 ---
 title: 'welcome'
 metaTitle: "welcome to"
+by: "Ali Fertah"
 metaDesc: "welcome to my blog"
 socialImage: "imgs/matrix.jpg"
 date: "2023-01-14"

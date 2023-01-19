@@ -33,6 +33,14 @@ export async function getStaticProps({ params: { slug } }) {
       <div className='prose mx-auto'>
         <h1>{frontmatter.title}</h1>
         <div dangerouslySetInnerHTML={{ __html: md().render(content) }} />
+        <div className="flex justify-between">
+          <span>
+            {frontmatter.date}
+          </span>
+          <span>
+            by: {frontmatter.by}
+          </span>
+        </div>
       </div>
     );
   }

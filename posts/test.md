@@ -2,6 +2,7 @@
 title: 'welcome'
 metaTitle: "welcome to"
 metaDesc: "welcome to my blog"
+by: "Ali Fertah"
 socialImage: "imgs/matrix.jpg"
 date: "2023-01-14"
 tags:
