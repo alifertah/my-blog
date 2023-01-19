@@ -2,7 +2,7 @@
 title: 'welcome'
 metaTitle: "welcome to"
 metaDesc: "welcome to my blog"
-socialImage: "imgs/me.JPG"
+socialImage: "imgs/matrix.jpg"
 date: "2023-01-14"
 tags:
     - nextjs

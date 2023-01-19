@@ -33,8 +33,8 @@ export default function Home({ posts }) {
         <div className='border-gray-200 m-2 rounded-xl shadow-lg overfllow-hidden flex flex-col' key={slug}>
           <Link href={`post/${slug}`}>
             <Image 
-              width={650}
-              height={220}
+              width="650"
+              height="220"
               alt={frontmatter.title}
               src={`/${frontmatter.socialImage}`}
             />
