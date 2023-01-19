@@ -31,9 +31,9 @@ export async function getStaticProps({ params: { slug } }) {
   export default function PostPage({ frontmatter, content }) {
     return (
       <div className='prose mx-auto  dark:text-white'>
-        <h1>{frontmatter.title}</h1>
-        <div dangerouslySetInnerHTML={{ __html: md().render(content) }} />
-        <div className="flex justify-between">
+        <h1 className='dark:text-white'>{frontmatter.title}</h1>
+        <div className='dark:text-white' dangerouslySetInnerHTML={{ __html: md().render(content) }} />
+        <div className="flex justify-between dark:text-white">
           <span>
             {frontmatter.date}
           </span>
